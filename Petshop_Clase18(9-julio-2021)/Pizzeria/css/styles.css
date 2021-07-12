@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header div {
+    width: 50%;
+}
+
+nav{
+    width: 30%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background: #E5E5E5;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    height: 700px;
+    gap: 5px;
+}
+
+section article {
+    width: 40%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.promocion {
+    background-image: url(../img/delivery.jpg);
+    background-size: cover;
+}
+
+.promocion h2{
+    color: red;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.promocion h2 span{
+    color: white;
+}
+
+.top {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-around;
+    font-weight: bold;
+    background: #fff;
+    padding: 50px;
+}
+
+.top h2 {
+    text-align: center;
+    color: red;
+    font-size: 24px;
+}
+
+.top h3 {
+    font-size: 20px;
+}
+
+.top div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top ol{
+    line-height: 30px;
+}
+
+.top img{
+    width: 92;
+    height: 129;
+}
+
+footer {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 20px;
+    align-items: center;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+footer img {
+    width: 212px;
+    height: 80px;
+}
+
+
+
